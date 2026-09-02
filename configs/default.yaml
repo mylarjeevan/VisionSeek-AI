@@ -1,0 +1,9 @@
+model:
+  yolo_model: "yolo11m.pt"
+  conf_threshold: 0.3
+
+data:
+  image_extension: [".jpg", ".jpeg", ".png"]
+  # Directory that contains collection image folders (relative to project root).
+  # Override with the YOLO_IMAGE_ROOT environment variable for another machine.
+  image_root: "data/raw"

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "coco-val-2017-500",
+    "name": "COCO Val 2017 (500)",
+    "source_dir": "data/raw/coco-val-2017-500",
+    "metadata_path": "data/processed/coco-val-2017-500/metadata.json",
+    "embeddings_path": "data/processed/coco-val-2017-500/embeddings.npz",
+    "image_count": 500,
+    "indexed_count": 500,
+    "has_embeddings": true,
+    "status": "ready",
+    "search_available": true,
+    "semantic_available": true,
+    "model_used": "yolo11m.pt",
+    "created_at": "2026-09-02T04:39:19+00:00",
+    "updated_at": "2026-09-01T18:26:23+00:00"
+  },
+  {
+    "name": "black_person",
+    "source_dir": "D:/black_person",
+    "metadata_path": "D:/processed/black_person/metadata.json",
+    "embeddings_path": "D:/processed/black_person/embeddings.npz",
+    "image_count": 6,
+    "indexed_count": 6,
+    "has_embeddings": true,
+    "semantic_available": true,
+    "search_available": true,
+    "status": "ready",
+    "model_used": "yolo11m.pt",
+    "updated_at": "2026-09-01T18:53:56+00:00",
+    "id": "f096348156",
+    "created_at": "2026-09-01T18:53:56+00:00"
+  }
+]
